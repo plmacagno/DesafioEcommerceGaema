@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar'
-import CardList from "./components/CardList/CardList";
+import ItemList from "./components/ItemList/ItemList";
+
 
 
 let styleCustom ={
@@ -9,12 +10,14 @@ let styleCustom ={
 }
 
 function App() {
+  
   return (
     <div className="App" style={styleCustom} >
         <NavBar />
-        <CardList title={'Nuestros Productos'}/>
-        
-    </div>
+        <ItemList title={'Nuestros Productos'}/>
+             
+              
+     </div>
   );
 }
 
